@@ -28,14 +28,17 @@
     font-size: 20px;
     color: white;
     align-items: center;
+    
 }
 
-.nav span {
+.nav a {
     margin-right: 30px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
-.contact {
+#contact {
     background-color: white;
     color: black;
     padding: 8px 30px;
@@ -44,7 +47,7 @@
     transition: 0.2s all ease-in-out;
 }
 
-.contact:hover {
+#contact:hover {
     background-color: antiquewhite;
 }
 
